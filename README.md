@@ -19,7 +19,8 @@ I have used OpenCV, Python and dlib in this project.
 EAR(Eye-Aspect-Ratio) can be defined as the ratio between the sum of euclidean length of two vertical lines obtained by joining points p2,p6 and p3,p5 respectively to the euclidean lenth of horizontal line obtained by joining points p1 and p4.
 
  **EAR=||P2-P6|| + ||P3-P5|| / 2||P1-P4||**
- When we close our eyes, the length of the vertical line decreases and start tending towards 0.So the eye aspect ratio also decreases. So just by observing the EAR we can come to the conclusion that the eye is blinking or not.  
+ 
+When we close our eyes, the length of the vertical line decreases and start tending towards 0.So the eye aspect ratio also decreases. So just by observing the EAR we can come to the conclusion that the eye is blinking or not.  
  
  Also haar cascade algorithms are used for face detection and eye tracking is done  by geometrical features. 
 
