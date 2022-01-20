@@ -19,7 +19,7 @@ def get_blink_ratio(eye_points, facial_landmarks):
     center_bottom = midpoint(facial_landmarks.part(eye_points[5]),
                              facial_landmarks.part(eye_points[4]))
 
-    # calculating distance
+    # calculating distances
     horizontal_length = euclidean_distance(corner_left, corner_right)
     vertical_length = euclidean_distance(center_top, center_bottom)
 
